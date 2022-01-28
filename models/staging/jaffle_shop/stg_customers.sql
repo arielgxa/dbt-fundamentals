@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from fundamentals.customers
+    from {{ source('jaffle_shop', 'customers') }}
 
 )
 

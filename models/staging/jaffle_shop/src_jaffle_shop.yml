@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: arielgxa-dbt-tutorial
+    schema: fundamentals
+    tables:
+      - name: customers
+      - name: orders
