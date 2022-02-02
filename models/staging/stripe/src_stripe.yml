@@ -1,12 +1,11 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: stripe
     database: arielgxa-dbt-tutorial
     schema: fundamentals
     tables:
-      - name: customers
-      - name: orders
+      - name: payments
         loaded_at_field: _etl_loaded_at
         freshness:
           warn_after: {count: 72, period: hour}
