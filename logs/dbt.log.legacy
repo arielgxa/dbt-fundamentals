@@ -11401,3 +11401,686 @@ where order_id is null
 2022-02-07 01:15:24.598780 (Thread-51): handling status request
 2022-02-07 01:15:24.599172 (Thread-51): 01:15:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc668551160>]}
 2022-02-07 01:15:24.599693 (Thread-51): sending response (<Response 3150 bytes [200 OK]>) to 10.0.9.13
+2022-02-07 01:15:27.014090 (Thread-52): 01:15:27  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-07 01:15:27.014291 (Thread-52): 01:15:27  Partial parsing enabled, no changes found, skipping parsing
+2022-02-07 01:15:27.019649 (Thread-52): 01:15:27  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6684ee850>]}
+2022-02-07 01:15:27.836473 (Thread-53): handling status request
+2022-02-07 01:15:27.836847 (Thread-53): 01:15:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc668575940>]}
+2022-02-07 01:15:27.837308 (Thread-53): sending response (<Response 1241 bytes [200 OK]>) to 10.0.45.48
+2022-02-07 01:15:27.905948 (Thread-54): handling status request
+2022-02-07 01:15:27.906238 (Thread-54): 01:15:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc668575640>]}
+2022-02-07 01:15:27.906644 (Thread-54): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.156
+2022-02-07 01:15:36.601675 (Thread-55): handling status request
+2022-02-07 01:15:36.602039 (Thread-55): 01:15:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc668575460>]}
+2022-02-07 01:15:36.602483 (Thread-55): sending response (<Response 1219 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:15:36.637452 (Thread-56): handling list request
+2022-02-07 01:15:36.637687 (Thread-56): 01:15:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6685751f0>]}
+2022-02-07 01:15:36.692331 (Thread-56): 01:15:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680fd550>]}
+2022-02-07 01:15:36.692584 (Thread-56): 01:15:36  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:15:36.695797 (Thread-56): sending response (<Response 7864 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:16:52.672203 (Thread-57): 01:16:52  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-07 01:16:52.674426 (Thread-57): 01:16:52  Partial parsing: update schema file: jaffle_shop://models/staging/jaffle_shop/stg_jaffle_shop.yml
+2022-02-07 01:16:52.678576 (Thread-57): 01:16:52  1699: static parser successfully parsed staging/jaffle_shop/stg_customers.sql
+2022-02-07 01:16:52.727421 (Thread-57): 01:16:52  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc66804e5e0>]}
+2022-02-07 01:16:53.445257 (Thread-58): handling status request
+2022-02-07 01:16:53.445666 (Thread-58): 01:16:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680d6ac0>]}
+2022-02-07 01:16:53.446160 (Thread-58): sending response (<Response 1597 bytes [200 OK]>) to 10.0.16.37
+2022-02-07 01:16:53.502156 (Thread-59): handling status request
+2022-02-07 01:16:53.502448 (Thread-59): 01:16:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680d6790>]}
+2022-02-07 01:16:53.502877 (Thread-59): sending response (<Response 1597 bytes [200 OK]>) to 10.0.45.121
+2022-02-07 01:17:18.700565 (Thread-60): 01:17:18  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-02-07 01:17:18.700911 (Thread-60): 01:17:18  Partial parsing: added file: jaffle_shop://models/staging/jaffle_shop/jaffle_shop.md
+2022-02-07 01:17:18.740105 (Thread-60): 01:17:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a3f70>]}
+2022-02-07 01:17:19.211049 (Thread-61): handling status request
+2022-02-07 01:17:19.211444 (Thread-61): 01:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018c8e0>]}
+2022-02-07 01:17:19.211907 (Thread-61): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:17:19.221861 (Thread-62): handling list request
+2022-02-07 01:17:19.222126 (Thread-62): 01:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018c880>]}
+2022-02-07 01:17:19.254595 (Thread-62): 01:17:19  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018f6d0>]}
+2022-02-07 01:17:19.254876 (Thread-62): 01:17:19  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:17:19.255963 (Thread-62): 01:17:19  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:17:19.256138 (Thread-62): 01:17:19  No nodes selected!
+2022-02-07 01:17:19.257462 (Thread-62): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:17:19.527703 (Thread-63): handling status request
+2022-02-07 01:17:19.528061 (Thread-63): 01:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680d6cd0>]}
+2022-02-07 01:17:19.528510 (Thread-63): sending response (<Response 1266 bytes [200 OK]>) to 10.0.44.172
+2022-02-07 01:17:19.572117 (Thread-64): handling status request
+2022-02-07 01:17:19.572399 (Thread-64): 01:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc66818d3d0>]}
+2022-02-07 01:17:19.572753 (Thread-64): sending response (<Response 1266 bytes [200 OK]>) to 10.0.45.121
+2022-02-07 01:17:36.671429 (Thread-65): handling status request
+2022-02-07 01:17:36.671805 (Thread-65): 01:17:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6684eecd0>]}
+2022-02-07 01:17:36.672572 (Thread-65): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:17:36.677858 (Thread-66): handling list request
+2022-02-07 01:17:36.678092 (Thread-66): 01:17:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680a9b80>]}
+2022-02-07 01:17:36.710547 (Thread-66): 01:17:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a05e0>]}
+2022-02-07 01:17:36.710928 (Thread-66): 01:17:36  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:17:36.713336 (Thread-66): 01:17:36  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:17:36.713494 (Thread-66): 01:17:36  No nodes selected!
+2022-02-07 01:17:36.714671 (Thread-66): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:17:45.386603 (Thread-67): handling status request
+2022-02-07 01:17:45.386987 (Thread-67): 01:17:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a0c70>]}
+2022-02-07 01:17:45.387501 (Thread-67): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:17:45.392681 (Thread-68): handling list request
+2022-02-07 01:17:45.392960 (Thread-68): 01:17:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a0040>]}
+2022-02-07 01:17:45.428001 (Thread-68): 01:17:45  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018ca60>]}
+2022-02-07 01:17:45.428380 (Thread-68): 01:17:45  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:17:45.431098 (Thread-68): 01:17:45  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:17:45.431283 (Thread-68): 01:17:45  No nodes selected!
+2022-02-07 01:17:45.432622 (Thread-68): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:18:58.275187 (Thread-69): handling status request
+2022-02-07 01:18:58.275575 (Thread-69): 01:18:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a0c70>]}
+2022-02-07 01:18:58.276041 (Thread-69): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:18:58.316913 (Thread-70): handling list request
+2022-02-07 01:18:58.317210 (Thread-70): 01:18:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6680ab0a0>]}
+2022-02-07 01:18:58.353865 (Thread-70): 01:18:58  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018f8b0>]}
+2022-02-07 01:18:58.354151 (Thread-70): 01:18:58  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:18:58.359495 (Thread-70): 01:18:58  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:18:58.359653 (Thread-70): 01:18:58  No nodes selected!
+2022-02-07 01:18:58.360962 (Thread-70): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:19:31.521956 (Thread-72): handling status request
+2022-02-07 01:19:31.522333 (Thread-72): 01:19:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501ac1c0>]}
+2022-02-07 01:19:31.522790 (Thread-72): sending response (<Response 1007 bytes [200 OK]>) to 10.0.1.4
+2022-02-07 01:19:31.580867 (Thread-73): handling status request
+2022-02-07 01:19:31.581158 (Thread-73): 01:19:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501b01f0>]}
+2022-02-07 01:19:31.581527 (Thread-73): sending response (<Response 1007 bytes [200 OK]>) to 10.0.28.85
+2022-02-07 01:20:41.730172 (Thread-74): 01:20:41  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-07 01:20:41.734780 (Thread-74): 01:20:41  Partial parsing: update schema file: jaffle_shop://models/staging/jaffle_shop/stg_jaffle_shop.yml
+2022-02-07 01:20:41.738343 (Thread-74): 01:20:41  1699: static parser successfully parsed staging/jaffle_shop/stg_orders.sql
+2022-02-07 01:20:42.467102 (Thread-75): handling status request
+2022-02-07 01:20:42.467520 (Thread-75): 01:20:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6500d1f10>]}
+2022-02-07 01:20:42.467995 (Thread-75): sending response (<Response 1341 bytes [200 OK]>) to 10.0.44.172
+2022-02-07 01:20:42.508081 (Thread-76): handling status request
+2022-02-07 01:20:42.508395 (Thread-76): 01:20:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65008feb0>]}
+2022-02-07 01:20:42.508821 (Thread-76): sending response (<Response 1341 bytes [200 OK]>) to 10.0.31.184
+2022-02-07 01:20:42.516514 (Thread-77): handling status request
+2022-02-07 01:20:42.516748 (Thread-77): 01:20:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65018ce50>]}
+2022-02-07 01:20:42.517088 (Thread-77): sending response (<Response 1319 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:20:42.851357 (Thread-78): handling status request
+2022-02-07 01:20:42.851769 (Thread-78): 01:20:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc650088f10>]}
+2022-02-07 01:20:42.852217 (Thread-78): sending response (<Response 1319 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:20:43.376174 (Thread-79): 01:20:43  Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+2022-02-07 01:20:43.376652 (Thread-79): 01:20:43  Partial parsing: update schema file: jaffle_shop://models/staging/jaffle_shop/stg_jaffle_shop.yml
+2022-02-07 01:20:43.377502 (Thread-79): 01:20:43  Partial parsing: updated file: jaffle_shop://models/staging/jaffle_shop/jaffle_shop.md
+2022-02-07 01:20:43.381115 (Thread-79): 01:20:43  1699: static parser successfully parsed staging/jaffle_shop/stg_orders.sql
+2022-02-07 01:20:43.442994 (Thread-79): 01:20:43  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c753e50>]}
+2022-02-07 01:20:44.134127 (Thread-80): handling status request
+2022-02-07 01:20:44.134495 (Thread-80): 01:20:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc650169df0>]}
+2022-02-07 01:20:44.134981 (Thread-80): sending response (<Response 1921 bytes [200 OK]>) to 10.0.1.4
+2022-02-07 01:20:44.165573 (Thread-81): handling status request
+2022-02-07 01:20:44.165828 (Thread-81): 01:20:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501a0340>]}
+2022-02-07 01:20:44.166228 (Thread-81): sending response (<Response 1921 bytes [200 OK]>) to 10.0.45.121
+2022-02-07 01:20:44.213862 (Thread-82): handling status request
+2022-02-07 01:20:44.214122 (Thread-82): 01:20:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c747700>]}
+2022-02-07 01:20:44.214519 (Thread-82): sending response (<Response 1899 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:20:44.219598 (Thread-83): handling list request
+2022-02-07 01:20:44.219839 (Thread-83): 01:20:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c75aa60>]}
+2022-02-07 01:20:44.270807 (Thread-83): 01:20:44  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6501acca0>]}
+2022-02-07 01:20:44.271109 (Thread-83): 01:20:44  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:20:44.272069 (Thread-83): 01:20:44  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:20:44.272215 (Thread-83): 01:20:44  No nodes selected!
+2022-02-07 01:20:44.273395 (Thread-83): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:21:21.030331 (Thread-84): handling status request
+2022-02-07 01:21:21.030703 (Thread-84): 01:21:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c79b400>]}
+2022-02-07 01:21:21.031227 (Thread-84): sending response (<Response 1899 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:21:21.041429 (Thread-85): handling list request
+2022-02-07 01:21:21.041665 (Thread-85): 01:21:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65016f100>]}
+2022-02-07 01:21:21.071547 (Thread-85): 01:21:21  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc650105c40>]}
+2022-02-07 01:21:21.071809 (Thread-85): 01:21:21  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:21:21.073908 (Thread-85): 01:21:21  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:21:21.074069 (Thread-85): 01:21:21  No nodes selected!
+2022-02-07 01:21:21.075292 (Thread-85): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:21:35.806282 (Thread-86): handling status request
+2022-02-07 01:21:35.806712 (Thread-86): 01:21:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc650161dc0>]}
+2022-02-07 01:21:35.807247 (Thread-86): sending response (<Response 1899 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:21:35.812567 (Thread-87): handling list request
+2022-02-07 01:21:35.812812 (Thread-87): 01:21:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c76d160>]}
+2022-02-07 01:21:35.847371 (Thread-87): 01:21:35  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c753eb0>]}
+2022-02-07 01:21:35.847629 (Thread-87): 01:21:35  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:21:35.848580 (Thread-87): 01:21:35  The selection criterion '+models/staging/jaffle_shop/jaffle_shop.md+' does not match any nodes
+2022-02-07 01:21:35.848732 (Thread-87): 01:21:35  No nodes selected!
+2022-02-07 01:21:35.849979 (Thread-87): sending response (<Response 1950 bytes [200 OK]>) to 10.0.4.197
+2022-02-07 01:22:50.002590 (Thread-88): handling status request
+2022-02-07 01:22:50.002963 (Thread-88): 01:22:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c738520>]}
+2022-02-07 01:22:50.003472 (Thread-88): sending response (<Response 1921 bytes [200 OK]>) to 10.0.43.139
+2022-02-07 01:22:50.272814 (Thread-89): handling status request
+2022-02-07 01:22:50.273140 (Thread-89): 01:22:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c747ca0>]}
+2022-02-07 01:22:50.273596 (Thread-89): sending response (<Response 1921 bytes [200 OK]>) to 10.0.9.13
+2022-02-07 01:22:50.445779 (Thread-90): handling docs.generate request
+2022-02-07 01:22:50.446122 (Thread-90): 01:22:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c744220>]}
+2022-02-07 01:22:52.462742 (Thread-90): sending response (<Response 138 bytes [200 OK]>) to 10.0.10.138
+2022-02-07 01:22:52.495181 (MainThread): 01:22:52  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e8c39381-9e66-46cd-aa1b-d670f30b76a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f21e2a87040>]}
+2022-02-07 01:22:52.495453 (MainThread): 01:22:52  Found 5 models, 7 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-07 01:22:52.496737 (MainThread): 01:22:52  
+2022-02-07 01:22:52.496878 (MainThread): 01:22:52  Acquiring new bigquery connection "master"
+2022-02-07 01:22:52.497617 (ThreadPoolExecutor-0_0): 01:22:52  Acquiring new bigquery connection "list_arielgxa-dbt-tutorial_dbt_dev_arielgxa"
+2022-02-07 01:22:52.497748 (ThreadPoolExecutor-0_0): 01:22:52  Opening a new connection, currently in state init
+2022-02-07 01:22:52.750956 (MainThread): 01:22:52  Concurrency: 4 threads (target='default')
+2022-02-07 01:22:52.751107 (MainThread): 01:22:52  
+2022-02-07 01:22:52.753357 (Thread-1): 01:22:52  Began running node model.jaffle_shop.stg_customers
+2022-02-07 01:22:52.753547 (Thread-1): 01:22:52  Acquiring new bigquery connection "model.jaffle_shop.stg_customers"
+2022-02-07 01:22:52.753635 (Thread-1): 01:22:52  Began compiling node model.jaffle_shop.stg_customers
+2022-02-07 01:22:52.753724 (Thread-1): 01:22:52  Compiling model.jaffle_shop.stg_customers
+2022-02-07 01:22:52.756598 (Thread-2): 01:22:52  Began running node model.jaffle_shop.stg_orders
+2022-02-07 01:22:52.756765 (Thread-2): 01:22:52  Acquiring new bigquery connection "model.jaffle_shop.stg_orders"
+2022-02-07 01:22:52.756851 (Thread-2): 01:22:52  Began compiling node model.jaffle_shop.stg_orders
+2022-02-07 01:22:52.756929 (Thread-2): 01:22:52  Compiling model.jaffle_shop.stg_orders
+2022-02-07 01:22:52.758512 (Thread-3): 01:22:52  Began running node model.jaffle_shop.stg_payments
+2022-02-07 01:22:52.758681 (Thread-3): 01:22:52  Acquiring new bigquery connection "model.jaffle_shop.stg_payments"
+2022-02-07 01:22:52.758772 (Thread-3): 01:22:52  Began compiling node model.jaffle_shop.stg_payments
+2022-02-07 01:22:52.758851 (Thread-3): 01:22:52  Compiling model.jaffle_shop.stg_payments
+2022-02-07 01:22:52.762095 (Thread-1): 01:22:52  Writing injected SQL for node "model.jaffle_shop.stg_customers"
+2022-02-07 01:22:52.763146 (Thread-3): 01:22:52  Writing injected SQL for node "model.jaffle_shop.stg_payments"
+2022-02-07 01:22:52.764123 (Thread-2): 01:22:52  Writing injected SQL for node "model.jaffle_shop.stg_orders"
+2022-02-07 01:22:52.778798 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.778934 (Thread-1): 01:22:52  Began executing node model.jaffle_shop.stg_customers
+2022-02-07 01:22:52.779033 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.779204 (Thread-1): 01:22:52  Finished running node model.jaffle_shop.stg_customers
+2022-02-07 01:22:52.779470 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.779602 (Thread-2): 01:22:52  Began executing node model.jaffle_shop.stg_orders
+2022-02-07 01:22:52.779692 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.779828 (Thread-2): 01:22:52  Finished running node model.jaffle_shop.stg_orders
+2022-02-07 01:22:52.780095 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.780222 (Thread-3): 01:22:52  Began executing node model.jaffle_shop.stg_payments
+2022-02-07 01:22:52.780312 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.780435 (Thread-3): 01:22:52  Finished running node model.jaffle_shop.stg_payments
+2022-02-07 01:22:52.781319 (Thread-4): 01:22:52  Began running node test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa
+2022-02-07 01:22:52.781484 (Thread-4): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa"
+2022-02-07 01:22:52.781567 (Thread-4): 01:22:52  Began compiling node test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa
+2022-02-07 01:22:52.781641 (Thread-4): 01:22:52  Compiling test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa
+2022-02-07 01:22:52.786405 (Thread-1): 01:22:52  Began running node test.jaffle_shop.unique_stg_customers_customer_id.c7614daada
+2022-02-07 01:22:52.786544 (Thread-1): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.unique_stg_customers_customer_id.c7614daada"
+2022-02-07 01:22:52.786625 (Thread-1): 01:22:52  Began compiling node test.jaffle_shop.unique_stg_customers_customer_id.c7614daada
+2022-02-07 01:22:52.786698 (Thread-1): 01:22:52  Compiling test.jaffle_shop.unique_stg_customers_customer_id.c7614daada
+2022-02-07 01:22:52.795730 (Thread-4): 01:22:52  Writing injected SQL for node "test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa"
+2022-02-07 01:22:52.795925 (Thread-2): 01:22:52  Began running node model.jaffle_shop.fct_orders
+2022-02-07 01:22:52.796071 (Thread-2): 01:22:52  Acquiring new bigquery connection "model.jaffle_shop.fct_orders"
+2022-02-07 01:22:52.796151 (Thread-2): 01:22:52  Began compiling node model.jaffle_shop.fct_orders
+2022-02-07 01:22:52.796226 (Thread-2): 01:22:52  Compiling model.jaffle_shop.fct_orders
+2022-02-07 01:22:52.799884 (Thread-1): 01:22:52  Writing injected SQL for node "test.jaffle_shop.unique_stg_customers_customer_id.c7614daada"
+2022-02-07 01:22:52.800166 (Thread-3): 01:22:52  Began running node test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b
+2022-02-07 01:22:52.800314 (Thread-3): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b"
+2022-02-07 01:22:52.800394 (Thread-3): 01:22:52  Began compiling node test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b
+2022-02-07 01:22:52.800468 (Thread-3): 01:22:52  Compiling test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b
+2022-02-07 01:22:52.809246 (Thread-3): 01:22:52  Writing injected SQL for node "test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b"
+2022-02-07 01:22:52.812585 (Thread-2): 01:22:52  Writing injected SQL for node "model.jaffle_shop.fct_orders"
+2022-02-07 01:22:52.818767 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.818893 (Thread-4): 01:22:52  Began executing node test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa
+2022-02-07 01:22:52.818984 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.819136 (Thread-4): 01:22:52  Finished running node test.jaffle_shop.not_null_stg_customers_customer_id.e2cfb1f9aa
+2022-02-07 01:22:52.819254 (Thread-4): 01:22:52  Began running node test.jaffle_shop.assert_stg_payments_amount_is_positive
+2022-02-07 01:22:52.819360 (Thread-4): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.assert_stg_payments_amount_is_positive"
+2022-02-07 01:22:52.819434 (Thread-4): 01:22:52  Began compiling node test.jaffle_shop.assert_stg_payments_amount_is_positive
+2022-02-07 01:22:52.819504 (Thread-4): 01:22:52  Compiling test.jaffle_shop.assert_stg_payments_amount_is_positive
+2022-02-07 01:22:52.821253 (Thread-4): 01:22:52  Writing injected SQL for node "test.jaffle_shop.assert_stg_payments_amount_is_positive"
+2022-02-07 01:22:52.821415 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.821519 (Thread-1): 01:22:52  Began executing node test.jaffle_shop.unique_stg_customers_customer_id.c7614daada
+2022-02-07 01:22:52.821605 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.821726 (Thread-1): 01:22:52  Finished running node test.jaffle_shop.unique_stg_customers_customer_id.c7614daada
+2022-02-07 01:22:52.821829 (Thread-1): 01:22:52  Began running node test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64
+2022-02-07 01:22:52.821936 (Thread-1): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64"
+2022-02-07 01:22:52.822009 (Thread-1): 01:22:52  Began compiling node test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64
+2022-02-07 01:22:52.822085 (Thread-1): 01:22:52  Compiling test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64
+2022-02-07 01:22:52.824770 (Thread-1): 01:22:52  Writing injected SQL for node "test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64"
+2022-02-07 01:22:52.824980 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.825104 (Thread-3): 01:22:52  Began executing node test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b
+2022-02-07 01:22:52.825192 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.825315 (Thread-3): 01:22:52  Finished running node test.jaffle_shop.accepted_values_stg_orders_status__completed__shipped__returned__placed__return_pending.8fb5b5184b
+2022-02-07 01:22:52.825416 (Thread-3): 01:22:52  Began running node test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+2022-02-07 01:22:52.825518 (Thread-3): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+2022-02-07 01:22:52.825591 (Thread-3): 01:22:52  Began compiling node test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+2022-02-07 01:22:52.825662 (Thread-3): 01:22:52  Compiling test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+2022-02-07 01:22:52.832809 (Thread-3): 01:22:52  Writing injected SQL for node "test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500"
+2022-02-07 01:22:52.839055 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.839212 (Thread-2): 01:22:52  Began executing node model.jaffle_shop.fct_orders
+2022-02-07 01:22:52.839303 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.839429 (Thread-2): 01:22:52  Finished running node model.jaffle_shop.fct_orders
+2022-02-07 01:22:52.839540 (Thread-2): 01:22:52  Began running node test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a
+2022-02-07 01:22:52.839644 (Thread-2): 01:22:52  Acquiring new bigquery connection "test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a"
+2022-02-07 01:22:52.839717 (Thread-2): 01:22:52  Began compiling node test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a
+2022-02-07 01:22:52.839785 (Thread-2): 01:22:52  Compiling test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a
+2022-02-07 01:22:52.842660 (Thread-2): 01:22:52  Writing injected SQL for node "test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a"
+2022-02-07 01:22:52.843783 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.843917 (Thread-4): 01:22:52  Began executing node test.jaffle_shop.assert_stg_payments_amount_is_positive
+2022-02-07 01:22:52.844008 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.844136 (Thread-4): 01:22:52  Finished running node test.jaffle_shop.assert_stg_payments_amount_is_positive
+2022-02-07 01:22:52.844250 (Thread-4): 01:22:52  Began running node model.jaffle_shop.dim_customers
+2022-02-07 01:22:52.844355 (Thread-4): 01:22:52  Acquiring new bigquery connection "model.jaffle_shop.dim_customers"
+2022-02-07 01:22:52.844429 (Thread-4): 01:22:52  Began compiling node model.jaffle_shop.dim_customers
+2022-02-07 01:22:52.844500 (Thread-4): 01:22:52  Compiling model.jaffle_shop.dim_customers
+2022-02-07 01:22:52.846666 (Thread-4): 01:22:52  Writing injected SQL for node "model.jaffle_shop.dim_customers"
+2022-02-07 01:22:52.849621 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.849746 (Thread-1): 01:22:52  Began executing node test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64
+2022-02-07 01:22:52.849865 (Thread-1): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.849993 (Thread-1): 01:22:52  Finished running node test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64
+2022-02-07 01:22:52.850890 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.851028 (Thread-3): 01:22:52  Began executing node test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+2022-02-07 01:22:52.851142 (Thread-3): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.851266 (Thread-3): 01:22:52  Finished running node test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500
+2022-02-07 01:22:52.857210 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.857360 (Thread-2): 01:22:52  Began executing node test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a
+2022-02-07 01:22:52.857452 (Thread-2): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.857577 (Thread-2): 01:22:52  Finished running node test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a
+2022-02-07 01:22:52.860529 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.860677 (Thread-4): 01:22:52  Began executing node model.jaffle_shop.dim_customers
+2022-02-07 01:22:52.860770 (Thread-4): 01:22:52  finished collecting timing info
+2022-02-07 01:22:52.860899 (Thread-4): 01:22:52  Finished running node model.jaffle_shop.dim_customers
+2022-02-07 01:22:52.861984 (MainThread): 01:22:52  Connection 'master' was properly closed.
+2022-02-07 01:22:52.862091 (MainThread): 01:22:52  Connection 'test.jaffle_shop.not_null_stg_orders_order_id.81cfe2fe64' was properly closed.
+2022-02-07 01:22:52.862160 (MainThread): 01:22:52  Connection 'test.jaffle_shop.unique_stg_orders_order_id.e3b841c71a' was properly closed.
+2022-02-07 01:22:52.862224 (MainThread): 01:22:52  Connection 'test.jaffle_shop.relationships_stg_orders_customer_id__customer_id__ref_stg_customers_.430bf21500' was properly closed.
+2022-02-07 01:22:52.862285 (MainThread): 01:22:52  Connection 'model.jaffle_shop.dim_customers' was properly closed.
+2022-02-07 01:22:52.922034 (Thread-91): handling poll request
+2022-02-07 01:22:52.922412 (Thread-91): 01:22:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7a8af0>]}
+2022-02-07 01:22:52.924379 (Thread-91): sending response (<Response 54854 bytes [200 OK]>) to 10.0.43.139
+2022-02-07 01:22:52.939986 (MainThread): 01:22:52  Done.
+2022-02-07 01:22:53.011308 (MainThread): 01:22:53  Acquiring new bigquery connection "generate_catalog"
+2022-02-07 01:22:53.011433 (MainThread): 01:22:53  Building catalog
+2022-02-07 01:22:53.012206 (MainThread): 01:22:53  Opening a new connection, currently in state init
+2022-02-07 01:22:53.356516 (ThreadPoolExecutor-1_0): 01:22:53  Acquiring new bigquery connection "arielgxa-dbt-tutorial.information_schema"
+2022-02-07 01:22:53.367703 (ThreadPoolExecutor-1_1): 01:22:53  Acquiring new bigquery connection "arielgxa-dbt-tutorial.information_schema"
+2022-02-07 01:22:53.374471 (ThreadPoolExecutor-1_0): 01:22:53  Opening a new connection, currently in state init
+2022-02-07 01:22:53.374722 (ThreadPoolExecutor-1_1): 01:22:53  Opening a new connection, currently in state init
+2022-02-07 01:22:53.378972 (ThreadPoolExecutor-1_0): 01:22:53  On arielgxa-dbt-tutorial.information_schema: 
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `arielgxa-dbt-tutorial`.`dbt_dev_arielgxa`.__TABLES__
+        where (upper(dataset_id) = upper('dbt_dev_arielgxa'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `arielgxa-dbt-tutorial`.`dbt_dev_arielgxa`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `arielgxa-dbt-tutorial`.`dbt_dev_arielgxa`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+2022-02-07 01:22:53.379960 (ThreadPoolExecutor-1_1): 01:22:53  On arielgxa-dbt-tutorial.information_schema: 
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `arielgxa-dbt-tutorial`.`fundamentals`.__TABLES__
+        where (upper(dataset_id) = upper('fundamentals'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `arielgxa-dbt-tutorial`.`fundamentals`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `arielgxa-dbt-tutorial`.`fundamentals`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+2022-02-07 01:22:54.499622 (Thread-92): handling poll request
+2022-02-07 01:22:54.500013 (Thread-92): 01:22:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7a7670>]}
+2022-02-07 01:22:54.500658 (Thread-92): sending response (<Response 17363 bytes [200 OK]>) to 10.0.34.193
+2022-02-07 01:22:56.000252 (Thread-93): handling poll request
+2022-02-07 01:22:56.000625 (Thread-93): 01:22:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7a74c0>]}
+2022-02-07 01:22:56.001138 (Thread-93): sending response (<Response 295 bytes [200 OK]>) to 10.0.39.143
+2022-02-07 01:22:56.322196 (MainThread): 01:22:56  Catalog written to /usr/src/develop/user-55450/environment-61373/repository-49682/target/catalog.json
+2022-02-07 01:22:57.461378 (Thread-94): handling poll request
+2022-02-07 01:22:57.461754 (Thread-94): 01:22:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7c5ee0>]}
+2022-02-07 01:22:57.462592 (Thread-94): sending response (<Response 8918 bytes [200 OK]>) to 10.0.39.143
+2022-02-07 01:22:58.260363 (Thread-95): handling status request
+2022-02-07 01:22:58.260727 (Thread-95): 01:22:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc65016e850>]}
+2022-02-07 01:22:58.261241 (Thread-95): sending response (<Response 1921 bytes [200 OK]>) to 10.0.43.139
+2022-02-07 01:22:58.354167 (Thread-96): handling status request
+2022-02-07 01:22:58.354470 (Thread-96): 01:22:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7331c0>]}
+2022-02-07 01:22:58.354903 (Thread-96): sending response (<Response 1921 bytes [200 OK]>) to 10.0.27.56
+2022-02-07 01:22:58.380078 (Thread-97): handling status request
+2022-02-07 01:22:58.380333 (Thread-97): 01:22:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c733430>]}
+2022-02-07 01:22:58.380702 (Thread-97): sending response (<Response 1921 bytes [200 OK]>) to 10.0.44.172
+2022-02-07 01:26:19.982939 (Thread-98): handling status request
+2022-02-07 01:26:19.984885 (Thread-98): 01:26:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b790ecc1-3f1f-44a5-93c4-22b38bb1b3ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc62c7339d0>]}
+2022-02-07 01:26:19.985383 (Thread-98): sending response (<Response 1921 bytes [200 OK]>) to 10.0.10.138
